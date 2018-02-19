@@ -1,0 +1,3 @@
+/home/maor/work/SANA-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maor/work/SANA-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maor/work/SANA-master/cmake-build-debug/CMakeFiles/SANA_master.dir

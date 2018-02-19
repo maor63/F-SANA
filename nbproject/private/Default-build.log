@@ -1,0 +1,127 @@
+g++ -c  -o _objs/src/utils/NormalDistribution.o src/utils/NormalDistribution.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/templateUtils.o src/utils/templateUtils.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/Timer.o src/utils/Timer.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/utils.o src/utils/utils.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/randomSeed.o src/utils/randomSeed.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/SkipList.o src/utils/SkipList.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/SeedMatrix.o src/utils/SeedMatrix.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/utils/LinearRegression.o src/utils/LinearRegression.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+src/utils/LinearRegression.cpp: In member function ‘std::tuple<int, double, double, int, double, double, double, double> LinearRegression::run()’:
+src/utils/LinearRegression.cpp:45:13: warning: variable ‘line2Coeff’ set but not used [-Wunused-but-set-variable]
+     double* line2Coeff;
+             ^
+src/utils/LinearRegression.cpp:89:19: warning: ‘bestK’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     bestK = bestK + 1;
+                   ^
+src/utils/LinearRegression.cpp:88:19: warning: ‘bestJ’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     bestJ = bestJ - 1;
+                   ^
+src/utils/LinearRegression.cpp:75:13: warning: ‘smallestError’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             if (currentError < smallestError) {
+             ^
+g++ -c  -o _objs/src/measures/EdgeCorrectness.o src/measures/EdgeCorrectness.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/ExternalWeightedEdgeConservation.o src/measures/ExternalWeightedEdgeConservation.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/GoAverage.o src/measures/GoAverage.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/GoCoverage.o src/measures/GoCoverage.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/InducedConservedStructure.o src/measures/InducedConservedStructure.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/InvalidMeasure.o src/measures/InvalidMeasure.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/LargestCommonConnectedSubgraph.o src/measures/LargestCommonConnectedSubgraph.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/Measure.o src/measures/Measure.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/MeasureCombination.o src/measures/MeasureCombination.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/NodeCorrectness.o src/measures/NodeCorrectness.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/ShortestPathConservation.o src/measures/ShortestPathConservation.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/SymmetricSubstructureScore.o src/measures/SymmetricSubstructureScore.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/SymmetricEdgeCoverage.o src/measures/SymmetricEdgeCoverage.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/WeightedEdgeConservation.o src/measures/WeightedEdgeConservation.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/EdgeCount.o src/measures/localMeasures/EdgeCount.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/EdgeDensity.o src/measures/localMeasures/EdgeDensity.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/ExternalSimMatrix.o src/measures/localMeasures/ExternalSimMatrix.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/GenericLocalMeasure.o src/measures/localMeasures/GenericLocalMeasure.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/GoSimilarity.o src/measures/localMeasures/GoSimilarity.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/Graphlet.o src/measures/localMeasures/Graphlet.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/GraphletLGraal.o src/measures/localMeasures/GraphletLGraal.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/Importance.o src/measures/localMeasures/Importance.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/LocalMeasure.o src/measures/localMeasures/LocalMeasure.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/NodeCount.o src/measures/localMeasures/NodeCount.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/NodeDensity.o src/measures/localMeasures/NodeDensity.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/Sequence.o src/measures/localMeasures/Sequence.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/measures/localMeasures/GraphletCosine.o src/measures/localMeasures/GraphletCosine.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/GreedyLCCS.o src/methods/GreedyLCCS.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/HillClimbing.o src/methods/HillClimbing.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/Method.o src/methods/Method.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/NoneMethod.o src/methods/NoneMethod.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/RandomAligner.o src/methods/RandomAligner.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/SANA.o src/methods/SANA.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+src/methods/SANA.cpp: In member function ‘double SANA::findTInitialByLinearRegression()’:
+src/methods/SANA.cpp:1301:9: warning: unused variable ‘iter_t’ [-Wunused-variable]
+  double iter_t = minutes*60*getIterPerSecond();
+         ^
+src/methods/SANA.cpp: In member function ‘std::string SANA::getFolder()’:
+src/methods/SANA.cpp:1310:26: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(ss.str().c_str());
+                          ^
+src/methods/SANA.cpp: In member function ‘std::string SANA::mkdir(const string&)’:
+src/methods/SANA.cpp:1320:26: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+  system(ss.str().c_str());
+                          ^
+g++ -c  -o _objs/src/methods/TabuSearch.o src/methods/TabuSearch.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/WeightedAlignmentVoter.o src/methods/WeightedAlignmentVoter.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/Dijkstra.o src/methods/Dijkstra.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/WrappedMethod.o src/methods/wrappers/WrappedMethod.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/HubAlignWrapper.o src/methods/wrappers/HubAlignWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/LGraalWrapper.o src/methods/wrappers/LGraalWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/NETALWrapper.o src/methods/wrappers/NETALWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/MIGRAALWrapper.o src/methods/wrappers/MIGRAALWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/GHOSTWrapper.o src/methods/wrappers/GHOSTWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/PISwapWrapper.o src/methods/wrappers/PISwapWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/OptNetAlignWrapper.o src/methods/wrappers/OptNetAlignWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/SPINALWrapper.o src/methods/wrappers/SPINALWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/GREATWrapper.o src/methods/wrappers/GREATWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/NATALIEWrapper.o src/methods/wrappers/NATALIEWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/GEDEVOWrapper.o src/methods/wrappers/GEDEVOWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/MagnaWrapper.o src/methods/wrappers/MagnaWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/WAVEWrapper.o src/methods/wrappers/WAVEWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/PINALOGWrapper.o src/methods/wrappers/PINALOGWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/SANAPISWAPWrapper.o src/methods/wrappers/SANAPISWAPWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/methods/wrappers/CytoGEDEVOWrapper.o src/methods/wrappers/CytoGEDEVOWrapper.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/ArgumentParser.o src/arguments/ArgumentParser.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/modeSelector.o src/arguments/modeSelector.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/measureSelector.o src/arguments/measureSelector.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/methodSelector.o src/arguments/methodSelector.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/graphLoader.o src/arguments/graphLoader.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/supportedArguments.o src/arguments/supportedArguments.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/arguments/defaultArguments.o src/arguments/defaultArguments.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/AlphaEstimation.o src/modes/AlphaEstimation.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/Experiment.o src/modes/Experiment.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/ParameterEstimation.o src/modes/ParameterEstimation.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/NormalMode.o src/modes/NormalMode.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/DebugMode.o src/modes/DebugMode.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/ClusterMode.o src/modes/ClusterMode.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/AnalysisMode.o src/modes/AnalysisMode.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/modes/SimilarityMode.o src/modes/SimilarityMode.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/Alignment.o src/Alignment.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/complementaryProteins.o src/complementaryProteins.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -c  -o _objs/src/computeGraphlets.o src/computeGraphlets.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+src/computeGraphlets.cpp: In function ‘int init(int, const char*)’:
+src/computeGraphlets.cpp:738:9: warning: ‘num_orbits’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int num_orbits;
+         ^
+g++ -c  -o _objs/src/Graph.o src/Graph.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+In file included from src/Graph.cpp:1:0:
+src/Graph.hpp: In constructor ‘Graph::Graph()’:
+src/Graph.hpp:156:23: warning: ‘Graph::lockedCount’ will be initialized after [-Wreorder]
+     int lockedCount = 0;
+                       ^
+src/Graph.hpp:134:20: warning:   ‘std::vector<std::basic_string<char> > Graph::nodeTypes’ [-Wreorder]
+     vector<string> nodeTypes;
+                    ^
+src/Graph.cpp:60:1: warning:   when initialized here [-Wreorder]
+ Graph::Graph() :
+ ^
+g++ -c  -o _objs/src/main.o src/main.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+src/main.cpp: In function ‘int main(int, char**)’:
+src/main.cpp:26:30: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system("hostname -f >&2");
+                              ^
+g++ -c  -o _objs/src/report.o src/report.cpp -U__STRICT_ANSI__ -Wall -std=c++11 -O3 
+g++ -U__STRICT_ANSI__ -Wall -std=c++11 -O3   -o sana _objs/src/utils/NormalDistribution.o _objs/src/utils/templateUtils.o _objs/src/utils/Timer.o _objs/src/utils/utils.o _objs/src/utils/randomSeed.o _objs/src/utils/SkipList.o _objs/src/utils/SeedMatrix.o _objs/src/utils/LinearRegression.o _objs/src/measures/EdgeCorrectness.o _objs/src/measures/ExternalWeightedEdgeConservation.o _objs/src/measures/GoAverage.o _objs/src/measures/GoCoverage.o _objs/src/measures/InducedConservedStructure.o _objs/src/measures/InvalidMeasure.o _objs/src/measures/LargestCommonConnectedSubgraph.o _objs/src/measures/Measure.o _objs/src/measures/MeasureCombination.o _objs/src/measures/NodeCorrectness.o _objs/src/measures/ShortestPathConservation.o _objs/src/measures/SymmetricSubstructureScore.o _objs/src/measures/SymmetricEdgeCoverage.o _objs/src/measures/WeightedEdgeConservation.o _objs/src/measures/localMeasures/EdgeCount.o _objs/src/measures/localMeasures/EdgeDensity.o _objs/src/measures/localMeasures/ExternalSimMatrix.o _objs/src/measures/localMeasures/GenericLocalMeasure.o _objs/src/measures/localMeasures/GoSimilarity.o _objs/src/measures/localMeasures/Graphlet.o _objs/src/measures/localMeasures/GraphletLGraal.o _objs/src/measures/localMeasures/Importance.o _objs/src/measures/localMeasures/LocalMeasure.o _objs/src/measures/localMeasures/NodeCount.o _objs/src/measures/localMeasures/NodeDensity.o _objs/src/measures/localMeasures/Sequence.o _objs/src/measures/localMeasures/GraphletCosine.o _objs/src/methods/GreedyLCCS.o _objs/src/methods/HillClimbing.o _objs/src/methods/Method.o _objs/src/methods/NoneMethod.o _objs/src/methods/RandomAligner.o _objs/src/methods/SANA.o _objs/src/methods/TabuSearch.o _objs/src/methods/WeightedAlignmentVoter.o _objs/src/methods/Dijkstra.o _objs/src/methods/wrappers/WrappedMethod.o _objs/src/methods/wrappers/HubAlignWrapper.o _objs/src/methods/wrappers/LGraalWrapper.o _objs/src/methods/wrappers/NETALWrapper.o _objs/src/methods/wrappers/MIGRAALWrapper.o _objs/src/methods/wrappers/GHOSTWrapper.o _objs/src/methods/wrappers/PISwapWrapper.o _objs/src/methods/wrappers/OptNetAlignWrapper.o _objs/src/methods/wrappers/SPINALWrapper.o _objs/src/methods/wrappers/GREATWrapper.o _objs/src/methods/wrappers/NATALIEWrapper.o _objs/src/methods/wrappers/GEDEVOWrapper.o _objs/src/methods/wrappers/MagnaWrapper.o _objs/src/methods/wrappers/WAVEWrapper.o _objs/src/methods/wrappers/PINALOGWrapper.o _objs/src/methods/wrappers/SANAPISWAPWrapper.o _objs/src/methods/wrappers/CytoGEDEVOWrapper.o _objs/src/arguments/ArgumentParser.o _objs/src/arguments/modeSelector.o _objs/src/arguments/measureSelector.o _objs/src/arguments/methodSelector.o _objs/src/arguments/graphLoader.o _objs/src/arguments/supportedArguments.o _objs/src/arguments/defaultArguments.o _objs/src/modes/AlphaEstimation.o _objs/src/modes/Experiment.o _objs/src/modes/ParameterEstimation.o _objs/src/modes/NormalMode.o _objs/src/modes/DebugMode.o _objs/src/modes/ClusterMode.o _objs/src/modes/AnalysisMode.o _objs/src/modes/SimilarityMode.o _objs/src/Alignment.o _objs/src/complementaryProteins.o _objs/src/computeGraphlets.o _objs/src/Graph.o _objs/src/main.o _objs/src/report.o  

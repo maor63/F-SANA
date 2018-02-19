@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="arguments">
+          <in>ArgumentParser.cpp</in>
+          <in>defaultArguments.cpp</in>
+          <in>graphLoader.cpp</in>
+          <in>measureSelector.cpp</in>
+          <in>methodSelector.cpp</in>
+          <in>modeSelector.cpp</in>
+          <in>supportedArguments.cpp</in>
+        </df>
+        <df name="measures">
+          <df name="localMeasures">
+            <in>EdgeCount.cpp</in>
+            <in>EdgeDensity.cpp</in>
+            <in>ExternalSimMatrix.cpp</in>
+            <in>GenericLocalMeasure.cpp</in>
+            <in>GoSimilarity.cpp</in>
+            <in>Graphlet.cpp</in>
+            <in>GraphletCosine.cpp</in>
+            <in>GraphletLGraal.cpp</in>
+            <in>Importance.cpp</in>
+            <in>LocalMeasure.cpp</in>
+            <in>NodeCount.cpp</in>
+            <in>NodeDensity.cpp</in>
+            <in>Sequence.cpp</in>
+          </df>
+          <in>EdgeCorrectness.cpp</in>
+          <in>ExternalWeightedEdgeConservation.cpp</in>
+          <in>GoAverage.cpp</in>
+          <in>GoCoverage.cpp</in>
+          <in>InducedConservedStructure.cpp</in>
+          <in>InvalidMeasure.cpp</in>
+          <in>LargestCommonConnectedSubgraph.cpp</in>
+          <in>Measure.cpp</in>
+          <in>MeasureCombination.cpp</in>
+          <in>NodeCorrectness.cpp</in>
+          <in>ShortestPathConservation.cpp</in>
+          <in>SymmetricEdgeCoverage.cpp</in>
+          <in>SymmetricSubstructureScore.cpp</in>
+          <in>WeightedEdgeConservation.cpp</in>
+        </df>
+        <df name="methods">
+          <df name="wrappers">
+            <in>CytoGEDEVOWrapper.cpp</in>
+            <in>GEDEVOWrapper.cpp</in>
+            <in>GHOSTWrapper.cpp</in>
+            <in>GREATWrapper.cpp</in>
+            <in>HubAlignWrapper.cpp</in>
+            <in>LGraalWrapper.cpp</in>
+            <in>MIGRAALWrapper.cpp</in>
+            <in>MagnaWrapper.cpp</in>
+            <in>NATALIEWrapper.cpp</in>
+            <in>NETALWrapper.cpp</in>
+            <in>OptNetAlignWrapper.cpp</in>
+            <in>PINALOGWrapper.cpp</in>
+            <in>PISwapWrapper.cpp</in>
+            <in>SANAPISWAPWrapper.cpp</in>
+            <in>SPINALWrapper.cpp</in>
+            <in>WAVEWrapper.cpp</in>
+            <in>WrappedMethod.cpp</in>
+          </df>
+          <in>Dijkstra.cpp</in>
+          <in>F_SANA_Sqrt.cpp</in>
+          <in>F_SANA_Sqrt.hpp</in>
+          <in>GreedyLCCS.cpp</in>
+          <in>HillClimbing.cpp</in>
+          <in>Method.cpp</in>
+          <in>NoneMethod.cpp</in>
+          <in>RandomAligner.cpp</in>
+          <in>SANA.cpp</in>
+          <in>SANA_Abstract.cpp</in>
+          <in>SANA_Abstract.hpp</in>
+          <in>SANA_Improved.cpp</in>
+          <in>TabuSearch.cpp</in>
+          <in>WeightedAlignmentVoter.cpp</in>
+        </df>
+        <df name="modes">
+          <in>AlphaEstimation.cpp</in>
+          <in>AnalysisMode.cpp</in>
+          <in>ClusterMode.cpp</in>
+          <in>DebugMode.cpp</in>
+          <in>Experiment.cpp</in>
+          <in>NormalMode.cpp</in>
+          <in>ParameterEstimation.cpp</in>
+          <in>SimilarityMode.cpp</in>
+        </df>
+        <df name="utils">
+          <in>LinearRegression.cpp</in>
+          <in>NormalDistribution.cpp</in>
+          <in>SeedMatrix.cpp</in>
+          <in>SkipList.cpp</in>
+          <in>Timer.cpp</in>
+          <in>randomSeed.cpp</in>
+          <in>templateUtils.cpp</in>
+          <in>utils.cpp</in>
+        </df>
+        <in>Alignment.cpp</in>
+        <in>Graph.cpp</in>
+        <in>complementaryProteins.cpp</in>
+        <in>computeGraphlets.cpp</in>
+        <in>main.cpp</in>
+        <in>report.cpp</in>
+      </df>
+    </df>
+    <df root="." name="1">
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11 -O3"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>sana</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/local/igraph</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <undefinedList>
+              <Elem>__STRICT_ANSI__</Elem>
+            </undefinedList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/Alignment.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/Graph.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/ArgumentParser.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/defaultArguments.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/graphLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/measureSelector.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/methodSelector.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/modeSelector.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/arguments/supportedArguments.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/complementaryProteins.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/computeGraphlets.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/EdgeCorrectness.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/ExternalWeightedEdgeConservation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/GoAverage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/GoCoverage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/InducedConservedStructure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/InvalidMeasure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/LargestCommonConnectedSubgraph.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/Measure.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/MeasureCombination.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/NodeCorrectness.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/ShortestPathConservation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/SymmetricEdgeCoverage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/SymmetricSubstructureScore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/WeightedEdgeConservation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/EdgeCount.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/EdgeDensity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/ExternalSimMatrix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/GenericLocalMeasure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/GoSimilarity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/Graphlet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/GraphletCosine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/GraphletLGraal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/Importance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/LocalMeasure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/NodeCount.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/NodeDensity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/measures/localMeasures/Sequence.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/Dijkstra.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/F_SANA_Sqrt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/methods/F_SANA_Sqrt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/methods/GreedyLCCS.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/HillClimbing.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/Method.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/NoneMethod.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/RandomAligner.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/SANA.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/SANA_Abstract.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/methods/SANA_Abstract.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/methods/SANA_Improved.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/TabuSearch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/WeightedAlignmentVoter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/CytoGEDEVOWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/GEDEVOWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/GHOSTWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/GREATWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/HubAlignWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/LGraalWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/MIGRAALWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/MagnaWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/NATALIEWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/NETALWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/OptNetAlignWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/PINALOGWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/PISwapWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/SANAPISWAPWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/SPINALWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/WAVEWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/methods/wrappers/WrappedMethod.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/AlphaEstimation.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/AnalysisMode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/ClusterMode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/DebugMode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/Experiment.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/NormalMode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/ParameterEstimation.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/modes/SimilarityMode.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/report.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/LinearRegression.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/NormalDistribution.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/SeedMatrix.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/SkipList.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/Timer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/randomSeed.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/templateUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/utils/utils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

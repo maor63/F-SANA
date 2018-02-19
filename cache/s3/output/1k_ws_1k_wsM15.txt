@@ -1,0 +1,10 @@
+lower_temperature 3.75837e-05
+upper_temperature 0.0001
+lower_exp -4.425
+upper_exp -4
+line_1_height 0.177621
+line_3_height 0.00549756
+starting_P(Bad) 0.22295
+final_temperature_exp -1.6
+final_temperature 0.0251189
+final_P(Bad) 0.994703
