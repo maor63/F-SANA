@@ -68,7 +68,7 @@ def current_flow_closeness_centrality(G, normalized=True, weight='weight',
     .. [2] Stephenson, K. and Zelen, M.
        Rethinking centrality: Methods and examples.
        Social Networks. Volume 11, Issue 1, March 1989, pp. 1-37
-       http://dx.doi.org/10.1016/0378-8733(89)90016-6
+       https://doi.org/10.1016/0378-8733(89)90016-6
     """
     from networkx.utils import reverse_cuthill_mckee_ordering 
     try:
