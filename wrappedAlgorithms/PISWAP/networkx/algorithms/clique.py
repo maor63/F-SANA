@@ -76,13 +76,13 @@ def find_cliques(G):
        Computing and Combinatorics,
        10th Annual International Conference on
        Computing and Combinatorics (COCOON 2004), 25 October 2006, Pages 28-42
-       http://dx.doi.org/10.1016/j.tcs.2006.06.015
+       https://doi.org/10.1016/j.tcs.2006.06.015
 
     .. [3] F. Cazals, C. Karande,
        A note on the problem of reporting maximal cliques,
        Theoretical Computer Science,
        Volume 407, Issues 1-3, 6 November 2008, Pages 564-568,
-       http://dx.doi.org/10.1016/j.tcs.2008.05.010
+       https://doi.org/10.1016/j.tcs.2008.05.010
     """
     # Cache nbrs and find first pivot (highest degree)
     maxconn=-1
@@ -210,13 +210,13 @@ def find_cliques_recursive(G):
        Computing and Combinatorics,
        10th Annual International Conference on
        Computing and Combinatorics (COCOON 2004), 25 October 2006, Pages 28-42
-       http://dx.doi.org/10.1016/j.tcs.2006.06.015
+       https://doi.org/10.1016/j.tcs.2006.06.015
 
     .. [3] F. Cazals, C. Karande,
        A note on the problem of reporting maximal cliques,
        Theoretical Computer Science,
        Volume 407, Issues 1-3, 6 November 2008, Pages 564-568,
-       http://dx.doi.org/10.1016/j.tcs.2008.05.010
+       https://doi.org/10.1016/j.tcs.2008.05.010
     """
     nnbrs={}
     for n,nbrs in G.adjacency_iter():

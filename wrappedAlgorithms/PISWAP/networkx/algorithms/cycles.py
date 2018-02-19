@@ -142,7 +142,7 @@ def simple_cycles(G):
     ----------
     .. [1] Finding all the elementary circuits of a directed graph.
        D. B. Johnson, SIAM Journal on Computing 4, no. 1, 77-84, 1975. 
-       http://dx.doi.org/10.1137/0204007
+       https://doi.org/10.1137/0204007
 
     See Also
     --------
